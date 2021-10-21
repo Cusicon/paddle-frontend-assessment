@@ -1,0 +1,48 @@
+.container {
+  margin: auto 20px;
+}
+
+.avatar {
+  display: inline-block;
+  width: 110px;
+  height: 110px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.desc {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.title h2 {
+  font-weight: lighter;
+}
+
+.description {
+  width: 60vw;
+  height: fit-content;
+  margin: 0px;
+  padding: 0px;
+}
+
+.extras {
+  display: inline-block;
+}
+
+.extras ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.extras ul li {
+  display: inline-block;
+  margin: auto 2px;
+}
+
+.extras ul li button {
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin: auto 2px;
+}
