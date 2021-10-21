@@ -3,7 +3,6 @@ import styles from "../styles/SingleRepo.module.css"
 
 
 export const SingleRepo = (repo) => {
-
     return (
         <div className={styles.container}>
             <div className={styles.avatar} style={{ backgroundImage: `url("${repo.owner.avatar_url}")` }}></div>
