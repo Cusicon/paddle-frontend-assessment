@@ -20,29 +20,29 @@ and the static homepage at [/homepage](http://localhost:3000/homepage)
 
 # Task 1 💪 ( Landing Page Project )
 
-## View Project
+### View Project
 
 To view this project, head onto [/homepage](http://localhost:3000/homepage)
 <br>
 <br>
 
-## Technologies
+### Technologies
 
 I use some interesting dependencies from npm which are the following.
 
-- [MomentJs](https://momentjs.com/): used to set the "Submitted ...ago" feature
-- [Axios](https://axios-http.com/): used to fetch the data from the GitHub REST API
-- [React-infinite-scroll-component](https://www.npmjs.com/package/react-infinite-scroll-component): used to implement the infinite scroll feature
+- [Font Awesome](https://fontawesome.com/): used for all my icons
+- [Rubik Font](https://fonts.google.com/specimen/Rubik): used to set the fonts to match same as mockup
+  <br><br>
 
 # Task 2 🧠 ( GitHub API Project )
 
-## View Project
+### View Project
 
 To view this project, head onto [/github](http://localhost:3000/github)
 <br>
 <br>
 
-## Technologies
+### Technologies
 
 I use some interesting dependencies from npm which are the following.
 
@@ -50,7 +50,7 @@ I use some interesting dependencies from npm which are the following.
 - [Axios](https://axios-http.com/): used to fetch the data from the GitHub REST API
 - [React-infinite-scroll-component](https://www.npmjs.com/package/react-infinite-scroll-component): used to implement the infinite scroll feature
 
-## What I'll change for better
+### What I'll change for better
 
 I'll to improve on the following
 
@@ -59,8 +59,7 @@ I'll to improve on the following
 - Show each user's repositories in a different route
 
 <br>
-<br>
 
-## Author
+#### Author
 
 [Success Chukwu](https://successchukwu.com)
