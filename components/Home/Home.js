@@ -1,4 +1,4 @@
-import React from "react";
+
 import CallToAction from "./CallToAction/CallToAction";
 import Features from "./Features/Features";
 import IconSection from "./IconSection/IconSection";

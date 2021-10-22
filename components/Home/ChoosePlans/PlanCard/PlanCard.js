@@ -1,4 +1,4 @@
-import React from "react";
+import Image from "next/image"
 
 import styles from "./PlanCard.module.css";
 
@@ -7,12 +7,12 @@ import marker from "../../../../public/assets/mark.png";
 export default function PlanCard(props) {
   return (
     <div className={`${styles.planCard} ${props.bordered && styles.bordered}`}>
-      <img src={props.image} alt="" />
+      <Image src={props.image} alt="" />
       <h1>{props.title}</h1>
       <div className={styles.list}>
         {props.features.map((feature) => (
           <p key={feature}>
-            <img src={marker} alt="" /> {feature}
+            <Image src={marker} alt="" /> {feature}
           </p>
         ))}
       </div>

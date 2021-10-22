@@ -1,4 +1,4 @@
-import React from "react";
+import Image from "next/image"
 
 import styles from "./Features.module.css";
 
@@ -9,7 +9,7 @@ import listStart from "../../../public/assets/list-start.png";
 export default function Features() {
   return (
     <div className={styles.Features}>
-      <img src={Piano} alt="" />
+      <Image src={Piano} alt="" />
       <div className={styles.Text}>
         <h1>Features We Provide For You</h1>
         <p>
@@ -17,16 +17,16 @@ export default function Features() {
           eu sem finibus lacinia nec pulvinar.
         </p>
         <p className={styles.list}>
-          <img src={listStart} alt="" /> Curabitur tempor justo
+          <Image src={listStart} alt="" /> Curabitur tempor justo
         </p>
         <p className={styles.list}>
-          <img src={listStart} alt="" /> Curabitur tempor justo
+          <Image src={listStart} alt="" /> Curabitur tempor justo
         </p>
         <p className={styles.list}>
-          <img src={listStart} alt="" /> Curabitur tempor justo
+          <Image src={listStart} alt="" /> Curabitur tempor justo
         </p>
         <p className={styles.list}>
-          <img src={listStart} alt="" /> Curabitur tempor justo
+          <Image src={listStart} alt="" /> Curabitur tempor justo
         </p>
       </div>
     </div>

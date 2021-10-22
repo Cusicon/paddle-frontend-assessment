@@ -1,4 +1,4 @@
-import React from "react";
+
 import styles from "./TrustedBy.module.css";
 
 export default function TrustedBy() {

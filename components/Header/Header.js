@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import Image from "next/image"
+import { useState } from "react";
 
 import logo from "../../public/assets/logo.svg";
 
@@ -13,7 +14,7 @@ export default function Header() {
     <div className={styles.header}>
       <div className={`${styles.header__container} container`}>
         <div className={styles.logo__div}>
-          <img src={logo} alt="KRD consulting logo" />
+          <Image src={logo} alt="KRD consulting logo" />
           <div className={styles.icon} onClick={handleClick}>
             {!click ? (
               <i className="fas fa-bars"></i>

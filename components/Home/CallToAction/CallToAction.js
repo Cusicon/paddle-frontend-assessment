@@ -1,5 +1,4 @@
-import React from "react";
-
+import Image from "next/image"
 import styles from "./CallToAction.module.css";
 
 import image from "../../../public/assets/web-dev.png";
@@ -16,7 +15,7 @@ export default function CallToAction() {
         </p>
         <button className={styles.getStarted}>Get Started</button>
       </div>
-      <img src={image} alt="call to action" />
+      <Image src={image} alt="call to action"/>
     </div>
   );
 }

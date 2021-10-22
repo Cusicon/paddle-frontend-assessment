@@ -1,4 +1,4 @@
-import React from "react";
+import Image from "next/image"
 
 import styles from "./TestimonialCard.module.css";
 
@@ -7,20 +7,19 @@ import star from "../../../../public/assets/star.png";
 export default function TestimonialCard(props) {
   return (
     <div
-      className={`${styles.TestimonialCard} ${
-        props.bordered && styles.bordered
-      }`}
+      className={`${styles.TestimonialCard} ${props.bordered && styles.bordered
+        }`}
     >
       <div className={styles.Identifier}>
         <div className={styles.ImageSection}>
-          <img src={props.image} alt="" />
+          <Image src={props.image} alt="" />
           <div className={styles.name}>
             <h2>{props.name}</h2>
             <p>{props.location}</p>
           </div>
           <div className={styles.rating}>
             <h2>4.5</h2>
-            <img src={star} alt="" />
+            <Image src={star} alt="" />
           </div>
         </div>
       </div>

@@ -1,5 +1,4 @@
-import React from "react";
-
+import Image from "next/image"
 import styles from "./Footer.module.css";
 
 import logo from "../../public/assets/logo.svg";
@@ -9,7 +8,7 @@ export default function Footer() {
     <footer className={styles.Footer}>
       <div className={`${styles.Footer__grid} container`}>
         <div className={styles.Footer__Item}>
-          <img src={logo} alt="" className={styles.logo} />
+          <Image src={logo} alt="" className={styles.logo} />
           <p>
             Praesent mollis lobortis nisl nec laoreet. Duis euismod nisl nec
             ante egestas ullamcorper. Duis id mauris consequat, ultrices ligula
