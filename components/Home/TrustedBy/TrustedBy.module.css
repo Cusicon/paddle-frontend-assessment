@@ -1,0 +1,20 @@
+.TrustedBy {
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.TrustedBy h1 {
+  margin: 15px;
+}
+
+@media (min-width: 760px) {
+  .TrustedBy h1 {
+    font-size: 35px;
+  }
+}

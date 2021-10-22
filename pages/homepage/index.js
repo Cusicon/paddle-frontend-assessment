@@ -1,11 +1,15 @@
-import "../../styles/HomePage.module.css"
+import Footer from "../../components/Footer/Footer";
+import Header from "../../components/Header/Header";
+import Home from "../../components/Home/Home";
 
 const index = () => {
     return (
-        <div>
-            Welcome to the Landing Homepage
+        <div className="App">
+            <Header />
+            <Home />
+            <Footer />
         </div>
-    )
+    );
 }
 
 export default index;

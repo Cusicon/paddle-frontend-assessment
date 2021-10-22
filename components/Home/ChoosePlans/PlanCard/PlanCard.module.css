@@ -1,0 +1,52 @@
+.planCard {
+  background-color: #fff;
+  border: 2px solid #ddd;
+  padding: 20px 40px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .planCard {
+    margin-bottom: 0;
+  }
+}
+
+.planCard.bordered {
+  border: 2px solid var(--primary-color);
+}
+
+.planCard button {
+  min-width: 170px;
+  text-align: center;
+  border: 3px solid var(--primary-color);
+  color: var(--primary-color);
+  margin: 20px auto;
+  padding: 10px;
+  background-color: transparent;
+  outline: none;
+  font-weight: 700;
+  border-radius: 4px;
+}
+
+.planCard.bordered button {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.price__div {
+  margin: 10px auto;
+}
+
+.price {
+  font-weight: 500;
+}
+
+.list p {
+  margin: 10px auto;
+}
+
+.list p img {
+  margin-right: 10px;
+}

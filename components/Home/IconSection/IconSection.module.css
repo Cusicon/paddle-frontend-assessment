@@ -1,0 +1,42 @@
+.IconSection {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: space-between;
+  grid-gap: 40px;
+  align-items: center;
+  min-height: 200px;
+  margin: 20px auto;
+}
+
+@media (min-width: 768px) {
+  .IconSection {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.Icon {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  border-right: 1px solid #000;
+  margin: 0 auto;
+  padding-right: 20px;
+}
+
+@media (min-width: 768px) {
+  .Icon {
+    max-width: 350px;
+  }
+}
+
+.Icon img {
+  background-color: var(--primary-light);
+  padding: 20px;
+  border-radius: 100px;
+}
+
+.Icon__Text {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+}

@@ -1,0 +1,20 @@
+.Arrow {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 40px 0;
+}
+
+.Arrow img {
+  margin-right: 20px;
+  padding: 15px;
+  border-radius: 50px;
+}
+
+.back {
+  border: 3px solid var(--primary-color);
+}
+
+.forward {
+  background-color: var(--primary-color);
+}

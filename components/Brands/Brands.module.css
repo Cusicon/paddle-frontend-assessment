@@ -1,0 +1,17 @@
+.Brands {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 200px;
+}
+
+@media (min-width: 768px) {
+  .Brands {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+.Brands img {
+  height: 60px;
+}

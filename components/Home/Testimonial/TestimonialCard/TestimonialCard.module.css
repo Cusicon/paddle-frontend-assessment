@@ -1,0 +1,27 @@
+.TestimonialCard {
+  padding: 10px;
+  max-width: 400px;
+  border-radius: 4px;
+  border: 2px solid #ddd;
+}
+
+.TestimonialCard.bordered {
+  border: 3px solid var(--primary-color);
+}
+
+.ImageSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rating img {
+  margin-left: 10px;
+}

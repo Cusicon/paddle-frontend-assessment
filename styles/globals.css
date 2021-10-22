@@ -17,3 +17,45 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+
+:root {
+  --primary-color: #ba55d3;
+  --primary-light: #ba55d340;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+p {
+  font-weight: 400;
+  line-height: 30px;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 500;
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  width: 90%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
